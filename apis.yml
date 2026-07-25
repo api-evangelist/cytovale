@@ -1,8 +1,27 @@
 aid: cytovale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cytovale.png
 name: Cytovale
-description: 'Cytovale is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cytovale is a San Francisco-based medical diagnostics company that develops
+  early-detection technology for sepsis. Its flagship product, IntelliSep, is the first
+  and only FDA-cleared in vitro diagnostic test for sepsis: it uses microfluidics, high-speed
+  video, and computer-vision algorithms to measure the biophysical rigidity of tens of
+  thousands of white blood cells, detecting the immune activation that signals sepsis risk
+  and returning a risk stratification in roughly eight minutes. The test runs on the
+  Cytovale System medical device in emergency-department settings. Cytovale is venture-backed
+  by Norwest Venture Partners, Sands Capital, and the Global Health Investment Corporation.
+  The company operates as a clinical/diagnostics device maker and does not currently publish
+  a public developer API, SDK, or API documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/cytovale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Diagnostics
+- Medical Devices
+- Sepsis
+- In Vitro Diagnostics
+- Clinical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://cytovale.com
+- type: Support
+  url: https://cytovale.com/support/contact-information/
+- type: Blog
+  url: https://cytovale.com/about/news-and-events/
+- type: PrivacyPolicy
+  url: https://cytovale.com/privacy-statement-us/
+- type: Compliance
+  url: https://cytovale.com/security-compliance/
+- type: TrustCenter
+  url: security/cytovale-trust-center.yml
+- type: DomainSecurity
+  url: security/cytovale-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
